@@ -21,7 +21,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
-
+//start
 const app = express();
 
 app.set('view engine', 'pug'); //here we telling express what engine we use , pug allow us to build template and fill it with data
